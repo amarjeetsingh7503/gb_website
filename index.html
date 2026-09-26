@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="GB Enterprises — Industrial Robotics and Automation. Engineering, integration, service and solutions." />
+  <title>GB Enterprises | Industrial Robotics & Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="loading">
+  <!-- Industrial Robotics Setting Sign Preloader -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader-curtain preloader-curtain-orange"></div>
+    <div class="preloader-curtain preloader-curtain-dark">
+      <div class="preloader-center">
+        <!-- Mechanical Industrial Setting Sign / Dual Gears -->
+        <div class="preloader-gears">
+          <!-- Main Setting Cog (Orange) -->
+          <svg class="gear gear-primary" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M43.5 12h13l1.8 7.2c2.4.9 4.7 2.1 6.8 3.5l7-3.1 9.2 9.2-3.1 7c1.4 2.1 2.6 4.4 3.5 6.8l7.2 1.8v13l-7.2 1.8c-.9 2.4-2.1 4.7-3.5 6.8l3.1 7-9.2 9.2-7-3.1c-2.1 1.4-4.4 2.6-6.8 3.5l-1.8 7.2h-13l-1.8-7.2c-2.4-.9-4.7-2.1-6.8-3.5l-7 3.1-9.2-9.2 3.1-7c-1.4-2.1-2.6-4.4-3.5-6.8l-7.2-1.8v-13l7.2-1.8c.9-2.4 2.1-4.7 3.5-6.8l-3.1-7 9.2-9.2 7 3.1c2.1-1.4 4.4-2.6 6.8-3.5l1.8-7.2zM50 36a14 14 0 1 0 0 28 14 14 0 0 0 0-28z" fill="#ff5a00"/>
+            <circle cx="50" cy="50" r="7" fill="#ffffff" />
+          </svg>
+          <!-- Secondary Setting Cog (Muted Grey / Interlocking) -->
+          <svg class="gear gear-secondary" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M43.5 12h13l1.8 7.2c2.4.9 4.7 2.1 6.8 3.5l7-3.1 9.2 9.2-3.1 7c1.4 2.1 2.6 4.4 3.5 6.8l7.2 1.8v13l-7.2 1.8c-.9 2.4-2.1 4.7-3.5 6.8l3.1 7-9.2 9.2-7-3.1c-2.1 1.4-4.4 2.6-6.8 3.5l-1.8 7.2h-13l-1.8-7.2c-2.4-.9-4.7-2.1-6.8-3.5l-7 3.1-9.2-9.2 3.1-7c-1.4-2.1-2.6-4.4-3.5-6.8l-7.2-1.8v-13l7.2-1.8c.9-2.4 2.1-4.7 3.5-6.8l-3.1-7 9.2-9.2 7 3.1c2.1-1.4 4.4-2.6 6.8-3.5l1.8-7.2zM50 36a14 14 0 1 0 0 28 14 14 0 0 0 0-28z" fill="#586774"/>
+            <circle cx="50" cy="50" r="7" fill="#ff5a00" />
+          </svg>
+        </div>
+        <!-- Loader text & status -->
+        <div class="preloader-text">
+          <span class="preloader-brand">GB ENTERPRISES</span>
+          <span class="preloader-status">ROBOTICS &bull; AUTOMATION</span>
+        </div>
+        <!-- Tech Progress Bar -->
+        <div class="preloader-progress">
+          <div class="preloader-progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a class="brand" href="#home" aria-label="GB Enterprises — Industrial Robotics and Automation Home">
+        <img src="assets/gb-logo.png" alt="GB Enterprises Logo" class="brand-logo" width="205" height="66" />
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      <nav class="nav" id="primary-nav" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#partners" class="nav-link">Partners</a>
+        <a href="#contact" class="nav-cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-label="Hero Introduction">
+      <video class="hero-video" id="hero-video" autoplay muted loop playsinline webkit-playsinline preload="auto" poster="assets/page-01.webp" disablepictureinpicture disableremoteplayback controlslist="nodownload noplaybackrate nofullscreen">
+        <source src="assets/hero_section_video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow orange"><span class="badge-dot"></span> ENGINEERING · INTEGRATION · SERVICE · SOLUTIONS</p>
+        <h1>Industrial<br><span>Robotics</span> & Automation</h1>
+        <p class="hero-copy">Precision in Motion. <strong>Excellence in Automation.</strong></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#solutions">
+            <span>Explore Solutions</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn-outline" href="#contact">Talk to GB Enterprises</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Glance Display Flex Layout -->
+    <div class="about-glance-container">
+      <!-- About Section (Without Card Inside) -->
+      <section id="about" class="about-section" aria-label="About GB Enterprises">
+        <div class="section-head">
+          <p class="eyebrow orange">COMPANY OVERVIEW</p>
+          <h2>Engineering a smarter tomorrow.</h2>
+        </div>
+        <div class="about-info">
+          <p class="lead">GB Enterprises is a specialized robotic integration company delivering innovative industrial robotics and automation solutions tailored to modern manufacturing.</p>
+          <p>Our offering spans comprehensive robotic applications including milling, welding, palletizing, polishing, 3D printing, Robo Café systems, and entertainment-industry applications. From initial concept and system integration to high-precision programming, commissioning, and on-site application support, we deliver reliable, practical automation that enhances operational productivity and precision.</p>
+          <div class="tag-row">
+            <span class="tag-item">People</span>
+            <span class="tag-item">Solutions</span>
+            <span class="tag-item">Progress</span>
+            <span class="tag-item">Precision</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Glance Card (Separate from About Section) -->
+      <aside class="glance-wrapper" aria-label="Company at a Glance">
+        <div class="glance-card">
+          <div class="glance-head">
+            <h3>Company at a Glance</h3>
+            <span class="status-indicator"><span class="pulse-green"></span> Active Integration Hub</span>
+          </div>
+          <div class="glance-rows">
+            <div class="glance-row"><span>Company</span><b>GB Enterprises</b></div>
+            <div class="glance-row"><span>Established</span><b>2020</b></div>
+            <div class="glance-row"><span>Head Office</span><b>Haryana, India</b></div>
+            <div class="glance-row"><span>Industry</span><b>Industrial Robotics & Automation</b></div>
+            <div class="glance-row"><span>Core Business</span><b>Robotic Integration & Solutions</b></div>
+            <div class="glance-row"><span>Market Reach</span><b>India + International</b></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Solutions / Applications -->
+    <section id="solutions" class="section solutions" aria-label="Our Robotic Applications">
+      <div class="section-container">
+        <div class="section-head">
+          <p class="eyebrow orange">OUR ROBOTIC APPLICATIONS</p>
+          <h2>Automation built around the application.</h2>
+        </div>
+        <div class="cards">
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">01</span>
+              <span class="card-badge">Precision</span>
+            </div>
+            <h3>Robotic Milling</h3>
+            <p>High-precision material removal solutions for demanding geometric and industrial applications.</p>
+          </article>
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">02</span>
+              <span class="card-badge">Industrial</span>
+            </div>
+            <h3>Robotic Welding</h3>
+            <p>Consistent, repeatable, and superior quality welding solutions for heavy and light industrial production.</p>
+          </article>
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">03</span>
+              <span class="card-badge">Logistics</span>
+            </div>
+            <h3>Robotic Palletizing</h3>
+            <p>High-efficiency, flexible material-handling and automated end-of-line packaging solutions.</p>
+          </article>
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">04</span>
+              <span class="card-badge">Finishing</span>
+            </div>
+            <h3>Robotic Polishing</h3>
+            <p>Complex 3D surface finishing, grinding, and deburring solutions focused on immaculate quality.</p>
+          </article>
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">05</span>
+              <span class="card-badge">Additive</span>
+            </div>
+            <h3>3D Printing</h3>
+            <p>Industrial additive manufacturing systems designed for large-format, custom, and architectural applications.</p>
+          </article>
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">06</span>
+              <span class="card-badge">Commercial</span>
+            </div>
+            <h3>Robo Café Solutions</h3>
+            <p>Automated robotic beverage brewing and serving systems for modern experiential retail spaces.</p>
+          </article>
+          <article class="solution-card">
+            <div class="card-top">
+              <span class="num">07</span>
+              <span class="card-badge">Experiential</span>
+            </div>
+            <h3>Entertainment Industry</h3>
+            <p>Dynamic robotic automation for media, thematic experiences, film sets, and interactive installations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Technology Banner -->
+    <section class="banner" aria-label="Brand Mission Statement">
+      <div class="banner-container">
+        <div class="banner-text">
+          <span>GLOBAL</span> TECHNOLOGY<br>
+          <span>LOCAL</span> COMMITMENT
+        </div>
+        <div class="banner-sub">
+          <span class="banner-pill">MADE IN INDIA</span>
+          <p>INDIA TO THE WORLD</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Gallery Showcase (Full uncropped images) -->
+    <section id="projects" class="section projects" aria-label="Project Gallery Showcase">
+      <div class="section-head">
+        <p class="eyebrow orange">PROJECT SHOWCASE</p>
+        <h2>People · Technology · Applications · Results</h2>
+        <p class="section-subtext">Click any card to view the high-resolution engineering showcase.</p>
+      </div>
+      <div class="gallery">
+        <!-- Gallery Card 1 -->
+        <article class="gallery-card" data-full-img="assets/Robotic_Welding_p04_4.jpg" data-title="Robotic Welding Application">
+          <div class="gallery-media">
+            <img src="assets/Robotic_Welding_p04_4.jpg" alt="Robotic Welding Project" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 01</span>
+            <h3>Robotic Welding</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 2 -->
+        <article class="gallery-card" data-full-img="assets/Robotic_Milling_p03 copy.jpg" data-title="Robotic Milling System">
+          <div class="gallery-media">
+            <img src="assets/Robotic_Milling_p03 copy.jpg" alt="Robotic Milling Project" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 02</span>
+            <h3>Robotic Milling</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 3 -->
+        <article class="gallery-card" data-full-img="assets/Robotic_Palletizing_p05_1 copy.jpg" data-title="Robotic Palletizing Automation">
+          <div class="gallery-media">
+            <img src="assets/Robotic_Palletizing_p05_1 copy.jpg" alt="Robotic Palletizing Project" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 03</span>
+            <h3>Robotic Palletizing</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 4 -->
+        <article class="gallery-card" data-full-img="assets/Robotic_Polishing_p06 copy.jpg" data-title="Robotic Surface Polishing">
+          <div class="gallery-media">
+            <img src="assets/Robotic_Polishing_p06 copy.jpg" alt="Robotic Polishing Project" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 04</span>
+            <h3>Robotic Polishing</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 5 -->
+        <article class="gallery-card" data-full-img="assets/Robo_Cafe_Solutions_p07_1 copy.jpg" data-title="Robo Café Solutions">
+          <div class="gallery-media">
+            <img src="assets/Robo_Cafe_Solutions_p07_1 copy.jpg" alt="Robo Cafe Solution" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 05</span>
+            <h3>Robo Café Solutions</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 6 -->
+        <article class="gallery-card" data-full-img="assets/Robotic_3D_Printing_p08.jpg" data-title="Robotic 3D Printing System">
+          <div class="gallery-media">
+            <img src="assets/Robotic_3D_Printing_p08.jpg" alt="Robotic 3D Printing Project" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 06</span>
+            <h3>3D Printing</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 7 -->
+        <article class="gallery-card" data-full-img="assets/page-09.webp" data-title="Entertainment Industry Robotics">
+          <div class="gallery-media">
+            <img src="assets/page-09.webp" alt="Entertainment Industry Robotics" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Application 07</span>
+            <h3>Entertainment Industry</h3>
+          </div>
+        </article>
+
+        <!-- Gallery Card 8 -->
+        <article class="gallery-card" data-full-img="assets/page-10.webp" data-title="GB Enterprises Project Overview">
+          <div class="gallery-media">
+            <img src="assets/page-10.webp" alt="GB Enterprises Project Gallery Overview" loading="lazy">
+            <div class="gallery-hover-overlay">
+              <span class="zoom-btn" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>View Full</span>
+              </span>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-category">Engineering Portfolio</span>
+            <h3>Integration Showcase</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Strategic & Distribution Partnerships -->
+    <section id="partners" class="section partners" aria-label="Strategic Partnerships">
+      <div class="section-head">
+        <p class="eyebrow orange">STRATEGIC & DISTRIBUTION PARTNERSHIPS</p>
+        <h2>Building long-term technology relationships.</h2>
+      </div>
+      <div class="partner-grid">
+        <article class="partner-card">
+          <div class="partner-top">
+            <span class="partner-badge">Strategic Partner</span>
+            <span class="partner-region">MENA Region</span>
+          </div>
+          <h3>Mubala General Trading LLC</h3>
+          <p class="partner-role">Strategic Partner · MENA Region</p>
+          <p class="partner-desc">Presented in the company brochure as a strategic partner supporting GB Enterprises' international market reach and technology collaboration.</p>
+        </article>
+        <article class="partner-card">
+          <div class="partner-top">
+            <span class="partner-badge">Distribution Partner</span>
+            <span class="partner-region">Global Reach</span>
+          </div>
+          <h3>Robot System Products (RSP)</h3>
+          <p class="partner-role">Distribution Partner</p>
+          <p class="partner-desc">Presented as a premier distribution partner supporting advanced automation products, robotic accessories, and related service solutions.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-label="Contact GB Enterprises">
+      <div class="contact-inner">
+        <div class="contact-intro">
+          <p class="eyebrow orange">LET'S BUILD THE FUTURE</p>
+          <h2>Ready to automate?</h2>
+          <p class="contact-lead">Talk to GB Enterprises about turnkey robotic integration, industrial automation solutions, programming, and technical application support.</p>
+          <div class="contact-badges">
+            <span>Engineering Consultation</span>
+            <span>Turnkey Integration</span>
+            <span>Lifetime Support</span>
+          </div>
+        </div>
+        <div class="contact-details">
+          <a class="contact-item" href="tel:+919871456672">
+            <span class="contact-label">PHONE NUMBER</span>
+            <span class="contact-val">+91 98714 56672</span>
+          </a>
+          <a class="contact-item" href="mailto:info@gbenterprisesindia.com">
+            <span class="contact-label">GENERAL INQUIRIES</span>
+            <span class="contact-val">info@gbenterprisesindia.com</span>
+          </a>
+          <a class="contact-item" href="mailto:sales@gbenterprisesindia.com">
+            <span class="contact-label">SALES & INTEGRATION</span>
+            <span class="contact-val">sales@gbenterprisesindia.com</span>
+          </a>
+          <div class="contact-item static">
+            <span class="contact-label">REGISTERED OFFICE</span>
+            <span class="contact-val">2D/123 NIT Faridabad, HR-121001, India</span>
+          </div>
+          <div class="contact-item static" id="gstin-item">
+            <span class="contact-label">GSTIN</span>
+            <span class="contact-val">06CEEPS6304B1ZU</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p>© <span id="year"></span> <strong>GB Enterprises</strong>. All rights reserved.</p>
+      </div>
+      <div class="footer-tagline">
+        <span>Engineering</span> · <span>Integration</span> · <span>Service</span> · <span>Solutions</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Actions (WhatsApp & Back to Top) -->
+  <aside class="floating-actions" aria-label="Quick Actions">
+    <a class="whatsapp-btn" href="https://wa.me/919871456672?text=Hello%20GB%20Enterprises%2C%20I%20would%20like%20to%20discuss%20an%20automation%20requirement." target="_blank" rel="noopener noreferrer" aria-label="Chat with GB Enterprises on WhatsApp">
+      <svg class="whatsapp-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.981.536 1.776.814 2.802.814 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.586-5.766-5.774-5.766zm8.708 5.765c-.002 4.821-3.918 8.736-8.739 8.736-1.536 0-2.977-.4-4.225-1.099l-4.775 1.252 1.274-4.655c-.777-1.309-1.217-2.834-1.217-4.462.002-4.821 3.918-8.736 8.739-8.736 4.822 0 8.74 3.915 8.743 8.736z"/>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+  </aside>
+
+  <!-- Fullscreen Image Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-overlay" id="lightbox-overlay"></div>
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close full image preview">&times;</button>
+      <div class="lightbox-img-wrapper">
+        <img id="lightbox-img" src="" alt="Full view preview" />
+      </div>
+      <div class="lightbox-caption">
+        <span class="lightbox-tag">GB ENTERPRISES SHOWCASE</span>
+        <h3 id="lightbox-title"></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
